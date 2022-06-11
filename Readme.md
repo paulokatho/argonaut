@@ -10,11 +10,12 @@
 - default port 8080
 
 ## Endpoints
-- POST 		 /argonauts
-- GET			/argonauts
-- GET			/argonauts/{id}
-- PUT			/argonauts/{id}
-- DELETE		/argonauts/{id}
+- POST /argonauts
+- GET /argonauts
+- GET /argonauts/{id}
+- PUT /argonauts/{id}
+- DELETE /argonauts/{id}
+- GET /argonauts/{active) -> getByStatus      
 
 ## Model
 
