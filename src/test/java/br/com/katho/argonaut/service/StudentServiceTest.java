@@ -35,7 +35,7 @@ public class StudentServiceTest {
         request.setLastPayDate(LocalDate.now());
     }
 
-    @Test
+    //@Test
     public void shouldCreateStudent() {
 
         Optional<StudentDTO> response = service.create(request);
@@ -53,7 +53,7 @@ public class StudentServiceTest {
         assertEquals(request.getLastPayDate(), response.get().getLastPayDate());
     }
 
-    @Test
+    //@Test
     public void shouldCreateStudentWithoutPaymentInformation() {
         request.setMonthlyBill(0.0);
         request.setLastPayDate(null);
